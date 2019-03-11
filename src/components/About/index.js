@@ -26,7 +26,7 @@ export default class Header extends Component {
                   </p>
               </div>
               <div class="columns download">
-                <p><a href="# " class="button"><i class="fa fa-download"></i>Download Resume</a></p>
+                <p><a href="resume/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a></p>
               </div>
             </div>
       </section> 

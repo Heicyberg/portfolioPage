@@ -14,17 +14,12 @@ export default class Header extends Component {
             <div class="row item">
 
                <div class="twelve columns">
-
-                  <h3>University of Life</h3>
-                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
-
+                  <h3>North Carolina State University    <span class="date">   Raleigh, NC</span></h3>
+                  <p class="info">Master of Financial Mathematics <span>&bull;</span> <em class="date"> Aug 2015 – Aug 2016</em></p>
                   <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                   The graduate study has prepared me with knowledge of linear regression modeling, time series modeling, hypothesis testing, Monte Carlo Simulation, and numerical methods.
+                   I used R, SAS on daily base for course work.
                   </p>
-
                </div>
 
             </div> 
@@ -33,8 +28,10 @@ export default class Header extends Component {
 
                <div class="twelve columns">
 
-                  <h3>School of Cool Designers</h3>
-                  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
+                  <h3>Colorado State University <span class="date">  Fort Collins, CO</span></h3>
+                  <p class="info">B.S. Degree in Bussiness Administration <span>&bull;</span> <em class="date">Aug 2011 - Aug 2014</em></p>
+                  <p class="info">B.S. Degree in Mathematics </p>
+                  <p class="info"><span>&bull;</span> <em class="date">Double major in Finance and Statistics</em></p>
 
                   <p>
                   This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
