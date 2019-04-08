@@ -328,33 +328,39 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.SQL {
+  	width: 95%;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+
+.MongoDB {
+   width: 95%;
+   -moz-animation: MongoDB 2s ease;
+   -webkit-animation: MongoDB 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.React {
+  	width: 90%;
+  	-moz-animation: React 2s ease;
+  	-webkit-animation: React 2s ease;
+}
+.NodeJs {
+  	width: 90%;
+  	-moz-animation: NodeJS 2s ease;
+  	-webkit-animation: NodeJS 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.Bootstrap {
+  	width: 90%;
+  	-moz-animation: Bootstrap 2s ease;
+  	-webkit-animation: Bootstrap 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 85%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
