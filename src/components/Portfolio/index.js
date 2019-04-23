@@ -7,18 +7,17 @@ export default class Header extends Component {
          <div class="row">
          <div class="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Projects.</h1>
             
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
           	   <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/coffee.jpg"/>
+                       <img alt="" src="images/portfolio/google-book-search.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Coffee</h5>
-                              <p>Illustrration</p>
+          					      <h5>Google Book Shelf</h5>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -29,7 +28,7 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg"/>
+                        <img alt="" src="images/portfolio/googel-book-search.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
           					      <h5>Console</h5>
@@ -137,17 +136,15 @@ export default class Header extends Component {
         <div>
          <div id="modal-01" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-google-book-search.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+			      <h4>Search a book you interested using google api,and save the result to your shelf</h4>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a href="https://boiling-retreat-26672.herokuapp.com/">Website</a>
+		         <a className="popup-modal-dismiss">Close</a>
             </div>
 
 	      </div>
