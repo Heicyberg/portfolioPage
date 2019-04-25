@@ -7,7 +7,7 @@ export default class Header extends Component {
          <div class="row">
          <div class="twelve columns collapsed">
 
-            <h1>Check Out Some of My Projects.</h1>
+            <h1>Check Out Some of My Projects</h1>
             
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
@@ -28,11 +28,10 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/googel-book-search.jpg"/>
+                        <img alt="" src="images/portfolio/eco-sum.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                                 <p>Web Development</p>
+          					      <h5>News summary in Eco way</h5>
           				    </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -43,11 +42,10 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/judah.jpg"/>
+                        <img alt="" src="images/portfolio/into-the-light.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
+          					      <h5>Friend finder, not a Tender</h5>
           				    </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -58,11 +56,10 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg"/>
+                        <img alt="" src="images/portfolio/real-solution.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
+          					      <h5>Bring the solution in real estate</h5>
           					</div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -73,11 +70,10 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg"/>
+                        <img alt="" src="images/portfolio/buger.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
+          					      <h5>Oder a burger</h5>
           					</div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -91,8 +87,7 @@ export default class Header extends Component {
                         <img alt="" src="images/portfolio/girl.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
+          					      <h5>Find the Ladies!</h5>
           					</div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -103,11 +98,10 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg"/>
+                        <img alt="" src="images/portfolio/Koolendar.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
+          					      <h5>A kool calendar</h5>
           					</div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
