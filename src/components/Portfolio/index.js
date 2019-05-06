@@ -3,9 +3,9 @@ export default class Header extends Component {
   render() {
     return (
       <React.Fragment>
-         <section id="portfolio">
+      <section id="portfolio">
          <div class="row">
-         <div class="twelve columns collapsed">
+           <div class="twelve columns collapsed">
 
             <h1>Check Out Some of My Projects</h1>
             
@@ -28,10 +28,10 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/eco-sum.jpg"/>
+                        <img alt="" src="images/portfolio/click-game.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>News summary in Eco way</h5>
+          					      <h5>Click Game</h5>
           				    </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -42,10 +42,10 @@ export default class Header extends Component {
                <div class="columns portfolio-item">
                   <div class="item-wrap">
                      <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg"/>
+                        <img alt="" src="images/portfolio/burger.jpg"/>
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Friend finder, not a Tender</h5>
+          					      <h5>Order your burger</h5>
           				    </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -57,78 +57,24 @@ export default class Header extends Component {
                   <div class="item-wrap">
                      <a href="#modal-04" title="">
                         <img alt="" src="images/portfolio/real-solution.jpg"/>
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Bring the solution in real estate</h5>
-          					</div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
+                           <div class="overlay">
+                              <div class="portfolio-item-meta">
+          					        <h5>Bring the solution in real estate</h5>
+          					      </div>
+                           </div>
+                           <div class="link-icon">
+                           <i class="icon-plus"></i>
+                           </div>
                      </a>
                   </div>
           		</div>
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/buger.jpg"/>
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Oder a burger</h5>
-          					</div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-          		</div> 
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg"/>
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Find the Ladies!</h5>
-          					</div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-          		</div>
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/Koolendar.jpg"/>
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>A kool calendar</h5>
-          					</div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-          		</div> 
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg"/>
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          				    </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-          		  </div>  
-                </div>
+               </div>
 
             </div> 
-       </div> 
-        <div>
-         <div id="modal-01" class="popup-modal mfp-hide">
+         </div>       
+         <div>
+           <div id="modal-01" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-google-book-search.jpg" alt="" />
 
@@ -143,118 +89,52 @@ export default class Header extends Component {
 
 	      </div>
 
-         <div id="modal-02" class="popup-modal mfp-hide">
+           <div id="modal-02" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+			      <h4>The click game</h4>
+			      <p>In this game you need to find all the 7 actress without doule click on a sigle girl tiwce. This is react front end game</p>
+               <span class="categories"><i class="fa fa-tag"></i>Game</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="https://stormy-inlet-97975.herokuapp.com/">Play</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
 	      </div>
 
-         <div id="modal-03" class="popup-modal mfp-hide">
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+           <div id="modal-03" class="popup-modal mfp-hide">
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-burger.jpg" alt="" />
 		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+			      <h4>Big Burger</h4>
+			      <p>This is a site you can order your burger. This site shows up without fanncy front-end work, but powered by handlerbar template language</p>
+               <span class="categories"><i class="fa fa-tag"></i>Dining</span>
 		      </div>
               <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="https://boiling-gorge-57667.herokuapp.com/">Order</a>
 		         <a class="popup-modal-dismiss">Close</a>
               </div>
 	      </div>
 
-         <div id="modal-04" class="popup-modal mfp-hide">
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+           <div id="modal-04" class="popup-modal mfp-hide">
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-house.jpg" alt="" />
 		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+			      <h4>Real solution to real estate questions</h4>
+			      <p>This website will show you the rental properties meet your return goal in residecial property</p>
                <span class="categories"><i class="fa fa-tag"></i>Photography</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="https://powerful-tor-47566.herokuapp.com">Check</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
 	      </div>
 
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-	      </div>
-      </div> 
+          </div> 
       </section> 
       </React.Fragment>
     );
